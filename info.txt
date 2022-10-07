@@ -1,0 +1,9 @@
+//The settings.json in the .vscode folder is there to be able to use the intellicense with Deno
+
+//To run the code  
+//(Not always compile if the code hasn't changed it won't compile it will be used the last compiled code)
+
+deno run app.ts
+
+//The run flags (Currently not needed) <- Main difference with node (more 'secure')
+deno run --allow-write=message.txt app.ts
